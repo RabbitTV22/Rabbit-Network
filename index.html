@@ -2,73 +2,30 @@
 <html lang="en">
 
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1Z5DNPCXWE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1Z5DNPCXWE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-  gtag('config', 'G-1Z5DNPCXWE');
-</script>
+        gtag('config', 'G-1Z5DNPCXWE');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rabbit Network</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 20px;
-            background-color: #f2f2f2;
-            color: #333;
-        }
-
-        h1, h2, h3 {
-            color: #009688;
-        }
-
-        a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        code {
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
-            padding: 2px 6px;
-            border-radius: 4px;
-        }
-
-        section {
-            background-color: #fff;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <section>
-        <h1>Rabbit Network</h1>
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1>Rabbit Network</h1>
+            <p>Welcome to Rabbit Network, a place with exciting gamemodes and endless possibilities!</p>
+        </div>
+    </div>
 
-        <p>Welcome to Rabbit Network, a place with exciting gamemodes and endless possibilities!</p>
-    </section>
-
-    <section>
+    <section class="server-info">
         <h2>Server Information</h2>
         <ul>
             <li>IP: <code>mc.rabbit-network.net</code></li>
@@ -82,11 +39,14 @@
 
     <section>
         <h2>Gamemodes</h2>
-        <h3>Creative</h3>
-        <p>Unleash your creativity with no limits! Access a 450x450 block plot and enjoy free world edit commands. Expand your space by purchasing ranks.</p>
-
-        <h3>Survival</h3>
-        <p>Explore the infinite world, protected by Land Claim plugins. Earn more space as you play. Unlock additional commands and perks by purchasing ranks in the store.</p>
+        <div class="feature-box creative">
+            <h3>Creative</h3>
+            <p>Unleash your creativity with no limits! Access a 450x450 block plot and enjoy free world edit commands. Expand your space by purchasing ranks.</p>
+        </div>
+        <div class="feature-box survival">
+            <h3>Survival</h3>
+            <p>Explore the infinite world, protected by Land Claim plugins. Earn more space as you play. Unlock additional commands and perks by purchasing ranks in the store.</p>
+        </div>
     </section>
 
     <section>
@@ -114,15 +74,11 @@
 
     <section>
         <h2>Staff</h2>
-        <ul>
+        <ul class="staff-list">
             <li>[OWNER] RabbitTV</li>
             <li>[ADMIN] Pattymcpiggy</li>
-<li>[MODERATOR] Alexcreeper6</li>
+            <li>[MODERATOR] Alexcreeper6</li>
         </ul>
-    </section>
-
-    <section>
-        
     </section>
 </body>
 
